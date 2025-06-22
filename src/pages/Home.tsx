@@ -158,7 +158,7 @@ const Home = () => {
               transition={{ delay: 0.6, duration: 0.8 }}
               className="text-xl text-gray-400 mb-8 max-w-3xl mx-auto"
             >
-              Founded by <strong>Abburi Ram</strong> and <strong>Sai Nishith</strong>, AlgoWise Technologies (AlgoWise, Algo-Wise) is a cutting-edge technology company specializing in AI-driven solutions that push the boundaries of what's possible. We're revolutionizing industries with PersonaMatch, MetaSEO, and Mentaura AI.
+              Founded by <strong>Abburi Ram</strong> and <strong>Sai Nishith</strong>, AlgoWise Technologies (AlgoWise, Algo-Wise) is a cutting-edge technology company specializing in AI-driven solutions that push the boundaries of what's possible. We\'re revolutionizing industries with PersonaMatch, MetaSEO, and Mentaura AI.
             </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
