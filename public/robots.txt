@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Allow all bots to access the entire site
+Disallow: /auth
+Disallow: /private/
+Disallow: /admin/
+Disallow: /api/
+
+# Sitemap location
+Sitemap: https://algo-wise.com/sitemap.xml
+
+# Crawl-delay for all bots
+Crawl-delay: 10
