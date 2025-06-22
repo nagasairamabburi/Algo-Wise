@@ -1,0 +1,24 @@
+{
+  "name": "AlgoWise Technologies - Leading AI & IT Solutions Company",
+  "short_name": "AlgoWise Technologies",
+  "description": "AlgoWise Technologies (AlgoWise, Algo-Wise) - Leading AI & IT Solutions Company founded by Abburi Ram and Sai Nishith. Creators of PersonaMatch, MetaSEO, and Mentaura AI.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/original-image.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "productivity", "technology"],
+  "lang": "en",
+  "dir": "ltr",
+  "scope": "/",
+  "related_applications": [],
+  "prefer_related_applications": false
+}

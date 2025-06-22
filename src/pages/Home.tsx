@@ -137,10 +137,10 @@ const Home = () => {
               transition={{ delay: 0.2, type: "spring", stiffness: 200 }}
               className="flex items-center justify-center"
             >
-              {/* SVG component */}
+              {/* AlgoWise Technologies Logo */}
               <div className="flex items-center justify-center">
                 <div className="flex items-center justify-center h-40 w-40">
-                  <img src="/original-image.svg" alt="Replacement Image" width="635" height="410" />
+                  <img src="/original-image.svg" alt="AlgoWise Technologies Logo - Leading AI & IT Solutions Company" width="635" height="410" />
                 </div>
               </div>
             </motion.div>
@@ -150,7 +150,7 @@ const Home = () => {
               transition={{ delay: 0.4, duration: 0.8 }}
               className="text-5xl sm:text-7xl font-bold mb-6 animate-gradient-text"
             >
-              Shaping Tomorrow's Technology Today
+              AlgoWise Technologies: Shaping Tomorrow's Technology Today
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -158,7 +158,7 @@ const Home = () => {
               transition={{ delay: 0.6, duration: 0.8 }}
               className="text-xl text-gray-400 mb-8 max-w-3xl mx-auto"
             >
-              We're a cutting-edge technology company specializing in AI-driven solutions that push the boundaries of what's possible
+              Founded by <strong>Abburi Ram</strong> and <strong>Sai Nishith</strong>, AlgoWise Technologies (AlgoWise, Algo-Wise) is a cutting-edge technology company specializing in AI-driven solutions that push the boundaries of what's possible. We're revolutionizing industries with PersonaMatch, MetaSEO, and Mentaura AI.
             </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -169,6 +169,7 @@ const Home = () => {
               <Link
                 to="/auth"
                 className="inline-flex items-center px-8 py-3 rounded-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 transition group glow button-hover"
+                aria-label="Access AlgoWise Technologies Portal"
               >
                 Access Portal
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition" />
@@ -176,6 +177,7 @@ const Home = () => {
               <a
                 href="#products"
                 className="inline-flex items-center px-8 py-3 rounded-full border border-blue-500 hover:bg-blue-500/10 transition button-hover"
+                aria-label="Explore AlgoWise Technologies Products"
               >
                 Explore Products
               </a>
@@ -269,10 +271,10 @@ const Home = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold mb-4 animate-gradient-text">
-              Revolutionary AI Products
+              Revolutionary AI Products by AlgoWise Technologies
             </h2>
             <p className="text-gray-400 max-w-2xl mx-auto">
-              Our suite of AI-powered solutions is designed to transform industries and create unprecedented value for our users.
+              Our suite of AI-powered solutions, developed by <strong>Abburi Ram</strong> and <strong>Sai Nishith</strong>, is designed to transform industries and create unprecedented value for our users. AlgoWise Technologies leads innovation in AI and emerging technologies.
             </p>
           </motion.div>
 
@@ -333,10 +335,10 @@ const Home = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold mb-4 animate-gradient-text">
-              About AlgoWise Technologies
+              About AlgoWise Technologies - Founded by Abburi Ram & Sai Nishith
             </h2>
             <p className="text-gray-400 max-w-2xl mx-auto">
-              AlgoWise Technologies stands as a global leader in the design and implementation of AI-driven solutions, empowering industries with transformative technologies that enhance operational efficiency, drive innovation, and elevate human experiences to unprecedented levels. Committed to excellence, we deliver cutting-edge, scalable, and sustainable solutions that set new benchmarks in the realm of artificial intelligence.
+              AlgoWise Technologies (AlgoWise, Algo-Wise, algowisetechnologies) stands as a global leader in the design and implementation of AI-driven solutions. Founded by <strong>Abburi Ram (Abburi Naga Sai Ram)</strong> from IIT Hyderabad and <strong>Sai Nishith</strong> from JNTU Hyderabad, we empower industries with transformative technologies that enhance operational efficiency, drive innovation, and elevate human experiences to unprecedented levels. Committed to excellence, we deliver cutting-edge, scalable, and sustainable solutions that set new benchmarks in the realm of artificial intelligence.
             </p>
           </motion.div>
 
@@ -349,19 +351,19 @@ const Home = () => {
             <Card3D delay={0}>
               <Globe className="w-12 h-12 text-blue-500 mb-4 card-3d-content" />
               <h3 className="text-xl font-semibold mb-2 card-3d-content">Global Impact</h3>
-              <p className="text-gray-400 card-3d-content">Transforming lives across continents with our innovative AI solutions and diverse team of experts.</p>
+              <p className="text-gray-400 card-3d-content">Transforming lives across continents with our innovative AI solutions and diverse team of experts led by Abburi Ram and Sai Nishith.</p>
             </Card3D>
 
             <Card3D delay={0.2}>
               <Cpu className="w-12 h-12 text-blue-500 mb-4 card-3d-content" />
               <h3 className="text-xl font-semibold mb-2 card-3d-content">Advanced Technology</h3>
-              <p className="text-gray-400 card-3d-content">Pioneering next-generation AI systems that adapt and evolve to meet tomorrow's challenges.</p>
+              <p className="text-gray-400 card-3d-content">Pioneering next-generation AI systems that adapt and evolve to meet tomorrow's challenges, developed by AlgoWise Technologies.</p>
             </Card3D>
 
             <Card3D delay={0.4}>
               <Shield className="w-12 h-12 text-blue-500 mb-4 card-3d-content" />
               <h3 className="text-xl font-semibold mb-2 card-3d-content">Security First</h3>
-              <p className="text-gray-400 card-3d-content">Implementing quantum-resistant encryption and advanced privacy protocols to protect user data.</p>
+              <p className="text-gray-400 card-3d-content">Implementing quantum-resistant encryption and advanced privacy protocols to protect user data in all AlgoWise Technologies solutions.</p>
             </Card3D>
           </motion.div>
         </div>
@@ -381,10 +383,10 @@ const Home = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold mb-4 animate-gradient-text">
-              Innovation at Our Core
+              Innovation at Our Core - AlgoWise Technologies Leadership
             </h2>
             <p className="text-gray-400 max-w-2xl mx-auto">
-              Pushing the boundaries of what's possible with AI technology, by our partnership with Vivaran Creations.
+              Pushing the boundaries of what's possible with AI technology, led by our visionary founders <strong>Abburi Ram</strong> and <strong>Sai Nishith</strong>, in partnership with Vivaran Creations.
             </p>
           </motion.div>
 
@@ -402,9 +404,9 @@ const Home = () => {
                   variants={fadeInUpVariants}
                   className="space-y-6 card-3d-content"
                 >
-                  <h3 className="text-2xl font-bold">Research & Development</h3>
+                  <h3 className="text-2xl font-bold">Research & Development by AlgoWise Technologies</h3>
                   <p className="text-gray-400">
-                    Our dedicated R&D team works tirelessly to develop breakthrough AI technologies that will shape the future of human interaction and business operations.
+                    Our dedicated R&D team, led by <strong>Abburi Ram</strong> and <strong>Sai Nishith</strong>, works tirelessly to develop breakthrough AI technologies that will shape the future of human interaction and business operations.
                   </p>
                   <motion.ul
                     variants={staggerContainerVariants}
@@ -440,9 +442,9 @@ const Home = () => {
                   className="flex items-center justify-center card-3d-content"
                 >
                   <div className="flex items-center justify-center">
-                    {/* SVG component */}
+                    {/* AlgoWise Technologies Innovation Logo */}
                     <div className="flex items-center justify-center h-60 w-60">
-                      <img src="/original-image.svg" alt="Replacement Image" width="635" height="410" />
+                      <img src="/original-image.svg" alt="AlgoWise Technologies Innovation - AI & Technology Solutions" width="635" height="410" />
                     </div>
                   </div>
                 </motion.div>
@@ -466,10 +468,10 @@ const Home = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold mb-4 animate-gradient-text">
-              Strategic Partnerships
+              Strategic Partnerships - AlgoWise Technologies & Vivaran Creations
             </h2>
             <p className="text-gray-400 max-w-2xl mx-auto">
-              Collaborating with industry leaders to bring cutting-edge AI solutions to market, with the help of Vivaran Creations.
+              Collaborating with industry leaders to bring cutting-edge AI solutions to market, with the strategic partnership between AlgoWise Technologies and Vivaran Creations.
             </p>
           </motion.div>
 
@@ -482,16 +484,16 @@ const Home = () => {
               className="flex items-center justify-center space-x-4 card-3d-content"
             >
               <div className="flex items-center justify-center">
-                {/* SVG component */}
+                {/* AlgoWise Technologies Logo */}
                 <div className="flex items-center justify-center h-40 w-40">
-                  <img src="/original-image.svg" alt="Replacement Image" width="635" height="410" />
+                  <img src="/original-image.svg" alt="AlgoWise Technologies - AI & IT Solutions Company" width="635" height="410" />
                 </div>
               </div>
               <span className="text-3xl">×</span>
               <div className="flex items-center justify-center">
-                {/* SVG component */}
+                {/* Vivaran Creations Logo */}
                 <div className="flex items-center justify-center h-40 w-40">
-                  <img src="/original-image (1).svg" alt="Replacement Image" width="635" height="410" />
+                  <img src="/original-image (1).svg" alt="Vivaran Creations - Strategic Partner of AlgoWise Technologies" width="635" height="410" />
                 </div>
               </div>
             </motion.div>
@@ -501,7 +503,7 @@ const Home = () => {
               transition={{ delay: 0.6 }}
               className="mt-6 text-gray-400 max-w-2xl mx-auto card-3d-content"
             >
-              A groundbreaking collaboration that combines AlgoWise Technologies innovative AI solutions with Vivaran Creations strategic guidance.
+              A groundbreaking collaboration that combines AlgoWise Technologies' innovative AI solutions with Vivaran Creations' strategic guidance, led by visionary founders <strong>Abburi Ram</strong> and <strong>Sai Nishith</strong>.
             </motion.p>
           </Card3D>
         </div>

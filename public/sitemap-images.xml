@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://algo-wise.com/</loc>
+    <image:image>
+      <image:loc>https://algo-wise.com/original-image.svg</image:loc>
+      <image:title>AlgoWise Technologies Logo</image:title>
+      <image:caption>AlgoWise Technologies - Leading AI & IT Solutions Company founded by Abburi Ram and Sai Nishith</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://algo-wise.com/about</loc>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1743795574861-d0a6fcdabc1d</image:loc>
+      <image:title>Abburi Ram - Founder & CEO of AlgoWise Technologies</image:title>
+      <image:caption>Abburi Ram (Abburi Naga Sai Ram) - Founder & CEO of AlgoWise Technologies, IIT Hyderabad</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1743794630119-6d028162730c</image:loc>
+      <image:title>Sai Nishith - Co-Founder & COO of AlgoWise Technologies</image:title>
+      <image:caption>Sai Nishith (Pavan Nishith) - Co-Founder & COO of AlgoWise Technologies, JNTU Hyderabad</image:caption>
+    </image:image>
+  </url>
+</urlset>
